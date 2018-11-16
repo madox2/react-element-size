@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "React hook to get size of any element",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madox2/react-element-size"
+  },
   "directories": {
     "example": "example"
   },
