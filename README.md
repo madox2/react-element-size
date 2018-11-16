@@ -1,8 +1,6 @@
-# react-tagcloud
+# react-element-size
 
 React hook to get size of any element.
-
-![demo](./demo-min.png)
 
 ## Installation
 
@@ -26,3 +24,5 @@ function App() {
     </div>
   );
 }
+
+![demo](./demo-min.png)
