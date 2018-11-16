@@ -24,5 +24,6 @@ function App() {
     </div>
   );
 }
+```
 
 ![demo](./demo-min.png)
