@@ -14,13 +14,15 @@ yarn add react-element-size
 import React from "react";
 import useElementSize from "react-element-size";
 
-function App() {
-  const { setRef, size } = useElementSize();
+export default function App() {
+  const app = useElementSize();
+  const box = useElementSize();
   return (
-    <div className="App">
-      <header className="App-header" ref={setRef}>
-        <pre>{JSON.stringify(size)}</pre>
-      </header>
+    <div className="App" ref={app.setRef}>
+      <span>{JSON.stringify(app.size)}</span>
+      <div className="Box" ref={box.setRef}>
+        <span>{JSON.stringify(box.size)}</span>
+      </div>
     </div>
   );
 }

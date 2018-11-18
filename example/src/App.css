@@ -1,4 +1,4 @@
-.App-header {
+.App {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -7,4 +7,18 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.Box {
+  width: 400px;
+  height: 200px;
+  background-color: #CD0000;
+}
+.Box, .App {
+  position: relative;
+}
+.Box span, .App span {
+  position: absolute;
+  top: 15px;
+  left: 15px;
 }
