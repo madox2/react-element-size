@@ -20,5 +20,5 @@ export default function useElementSize() {
     [ref]
   );
   const { width, height } = contentRect
-  return { size: { width, height }, setRef };
+  return { size: { width, height }, setRef, ref };
 }
